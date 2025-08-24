@@ -1,5 +1,9 @@
-* Source
+* Bézier Curve 
+Reimplementation of Bezier curves in C based on below YTB video.
+
+** References
 - https://www.youtube.com/watch?v=2oKzBq43ShE
+- https://www.geogebra.org/m/WPHQ9rUt
 
 *** Interesting timestamps:
 - 47:24 Yasnippets inserting formated date
