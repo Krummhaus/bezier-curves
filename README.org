@@ -1,0 +1,47 @@
+* Source
+- https://www.youtube.com/watch?v=2oKzBq43ShE
+
+*** Interesting timestamps:
+- 47:24 Yasnippets inserting formated date
+
+** Libs
+- SDL2 on Linux:
+- /usr/include/SDL2
+
+** Emacs c-mode indentation
+https://www.emacswiki.org/emacs/IndentingC
+
+** Git
+#+begin_src bash
+ls -al
+#+end_src
+
+** Dired
+I should definitly learn more about dired
+
+*** Emacs dired basics controls
+Dired has countless functionality. The best way to learn it is to try it out. Open a dired buffer and look at the commands listed in the menus.
+
+    **[C-x d]** (or M-x dired)
+    ask for a directory and puts you into a buffer with direct listing of that directory.
+
+    **[C-x C-j]** (or M-x dired-jump)
+    jump to a dired buffer corresponding to the current buffer (This require loading Dired Extra).
+    In the minibuffer, while doing 'Find File':
+
+    **[C-d]**
+    jump to a dired buffer corresponding to the directory in the minibuffer.
+
+    RET or f Open file or directory
+    o   Open file in a separate window
+    ^   Up directory
+    +   Create a directory
+    R   Rename / move
+    C   Copy
+    M   Change file/directory mode (unix file/directory permissions)
+    d   Delete
+    m   Mark
+    u   Unmark / undelete
+    x   'Expunge' -- i.e. actually delete files/directories marked for deletion
+
+I

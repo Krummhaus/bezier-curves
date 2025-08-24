@@ -1,0 +1,42 @@
+# Temporary and backup files
+*~
+*.swp
+*.bak
+.#*
+#*
+
+# Executable
+bezier
+
+# Common build artifacts
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.d
+*.gcno
+*.gcda
+
+# Executables
+a.out
+*.out
+
+# Editor-specific files (e.g., Emacs, Vim)
+*.swp
+*.un~
+*.~
+.#*
+*#
+
+# IDE-specific files (e.g., VS Code, Eclipse)
+.vscode/
+.settings/
+.project
+.cproject
+
+# Debian/Ubuntu package build artifacts
+*.deb
+
+# Logs
+*.log
